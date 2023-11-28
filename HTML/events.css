@@ -1,0 +1,68 @@
+body {
+    font-size: 25px;
+    color: rgb(72, 72, 72);
+}
+
+.upcoming-events{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.name {
+ font-weight: 700;
+ color: #00539b;   
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.abstract {
+    margin-top: 15px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: rgb(60, 58, 58);
+    padding-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: 700;
+    color: rgb(60, 58, 58);
+}
+
+.events-info {
+    display: flex;
+}
+
+.event-head {
+   margin-top: 10px;
+}
+
+.date-box {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.location {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.no-events {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}

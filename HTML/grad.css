@@ -1,0 +1,26 @@
+
+.courses {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.mphil {
+    width: 1fr;
+}
+
+.msc {
+    width: 1fr;
+}
+
+.phd {
+    margin-left: 50%;
+    
+}
+
+.u-list li a {
+    width: 700px;
+}
+
+

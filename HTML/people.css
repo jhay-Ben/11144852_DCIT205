@@ -1,0 +1,31 @@
+.department {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.staff {
+    margin-bottom: 30px;
+}
+
+.staff-name {
+    width: 250px; 
+}
+
+@media screen and (max-width: 800px) {
+    .staff-grid {
+      grid-template-columns: 1fr 1fr; 
+    }
+   }
+
+.hod-img6 {
+    height: 150px;
+    width: 250px;
+}
